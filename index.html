@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <!--load all font awesome styles-->
+    <link rel="stylesheet" href="fontAwesomeCss/all.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav-bar">
+        <div id="nav-bar-content-container">
+          <h1 id="fb-header">facebook</h1>
+          <form action="" id="login-form">
+            <div class="input-warper">
+              <label for="email">Email or phone</label>
+              <input type="text" name="email" id="email" class="login-inputs" />
+            </div>
+            <div class="input-warper">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                class="login-inputs"
+              />
+              <a id="forget-password" href="#">Forget password?</a>
+            </div>
+            <input id="login-btn" type="button" value="Log In" />
+          </form>
+        </div>
+      </div>
+      <div id="main-body-container">
+        <div id="main-body-content-holder">
+          <div id="left-side-content-wrapper">
+            <p id="connect">
+              Facebook helps you connect and share with the <br />
+              people in your life.
+            </p>
+            <img
+              id="left-side-img"
+              src="https://cdn.dribbble.com/users/795597/screenshots/3574014/social_network__3_.gif"
+              alt="connecting people"
+            />
+          </div>
+          <div id="right-side-content-wrapper">
+            <h1>Create an account</h1>
+            <p>It's quick and easy.</p>
+            <form id="right-side-content-form">
+              <div id="top-sign-up">
+                <input
+                  class="sign-up-inputs"
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="First name"
+                />
+                <input
+                  class="sign-up-inputs"
+                  type="text"
+                  name="surname"
+                  id="surname"
+                  placeholder="Surname"
+                />
+              </div>
+              <div id="lower-sign-up">
+                <input
+                  class="sign-up-inputs longer"
+                  type="text"
+                  name="mobile-number"
+                  id="mobile-number"
+                  placeholder="Mobile number or email address"
+                />
+                <input
+                  class="sign-up-inputs longer"
+                  type="text"
+                  name="new-password"
+                  id="new-password"
+                  placeholder="New password"
+                />
+              </div>
+              <div id="DOB-wrapper">
+                <div id="label-div">Birthday</div>
+                <div id="DOB-content-holder">
+                  <div>
+                    <select name="DOBDay">
+                      <option>Day</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                  </div>
+                  <div>
+                    <select name="DOBMonth">
+                      <option>Month</option>
+                      <option value="January">Jan</option>
+                      <option value="Febuary">Feb</option>
+                      <option value="March">Mar</option>
+                      <option value="April">Apr</option>
+                      <option value="May">May</option>
+                      <option value="June">Jun</option>
+                      <option value="July">Jul</option>
+                      <option value="August">Aug</option>
+                      <option value="September">Sept</option>
+                      <option value="October">Oct</option>
+                      <option value="November">Nov</option>
+                      <option value="December">Dec</option>
+                    </select>
+                  </div>
+                  <div>
+                    <select name="DOBYear">
+                      <option>Year</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="1998">1998</option>
+                    </select>
+                  </div>
+                  <a
+                    class="more-info"
+                    id="birthday-help"
+                    href="#"
+                    title="Click for more information"
+                    role="button"
+                    ><i
+                      class="fas fa-question-circle"
+                      style="color: rgb(112, 112, 112);"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div id="gender-wrapper">
+                <div id="label-div">Gender</div>
+                <div id="gender-content-holder">
+                  <div id="radio-button">
+                    <input
+                      type="radio"
+                      class="gender"
+                      id="female"
+                      name="gender"
+                    />
+                    <label for="female">Female</label>
+                    <input
+                      type="radio"
+                      class="gender"
+                      id="male"
+                      name="gender"
+                    />
+                    <label for="male">Male</label>
+                    <input
+                      type="radio"
+                      class="gender"
+                      id="custom"
+                      name="gender"
+                    />
+                    <label for="custom">Custom</label>
+                  </div>
+                  <a
+                    class="more-info"
+                    id="gender-help"
+                    href="#"
+                    title="Click for more information"
+                    role="button"
+                    ><i
+                      class="fas fa-question-circle"
+                      style="color: rgb(112, 112, 112);"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+
+              <p id="terms-of-agreement">
+                By clicking Sign Up, you agree to our <a href="#">Terms</a>.
+                Learn how we <br />
+                collect, use and share your data in our
+                <a href="#">Data Policy</a> and how we
+                <br />
+                use cookies and similar technology in our
+                <a href="#">Cookie Policy</a>. You
+                <br />
+                may receive SMS notifications from us and can opt out at any
+                <br />
+                time.
+              </p>
+              <input type="button" id="signup-btn" value="Sign Up" />
+              <div id="for-a-celebrities">
+                <a href="#">Create a Page</a>
+                <span>for a celebrity, band or business.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="footer-container">
+        <div id="upper-footer">
+          <p>
+            English (UK)
+            <a
+              role="button"
+              id="add-more-lang"
+              href="#"
+              title="Show more languages"
+              >+</a
+            >
+          </p>
+        </div>
+        <div id="lower-footer">
+          <a class="footer-links" href="#" target="_blank">Sign Up</a>
+          <a class="footer-links" href="#" target="_blank">Log In</a>
+          <a class="footer-links" href="#" target="_blank">Messenger</a>
+          <a class="footer-links" href="#" target="_blank">Facebook Lite</a>
+          <a class="footer-links" href="#" target="_blank">Watch</a>
+          <a class="footer-links" href="#" target="_blank">People</a>
+          <a class="footer-links" href="#" target="_blank">Pages</a>
+          <a class="footer-links" href="#" target="_blank"
+            >PagesPage categories</a
+          >
+          <a class="footer-links" href="#" target="_blank">Places</a>
+          <a class="footer-links" href="#" target="_blank">Games</a>
+          <a class="footer-links" href="#" target="_blank">Locations</a>
+          <a class="footer-links" href="#" target="_blank">Marketplace</a>
+          <a class="footer-links" href="#" target="_blank">Groups</a>
+          <a class="footer-links" href="#" target="_blank">Instagram</a>
+          <a class="footer-links" href="#" target="_blank">Local</a>
+          <a class="footer-links" href="#" target="_blank">Fundraisers</a>
+          <a class="footer-links" href="#" target="_blank">Services</a>
+          <a class="footer-links" href="#" target="_blank">About</a>
+          <a class="footer-links" href="#" target="_blank">Create ad</a>
+          <a class="footer-links" href="#" target="_blank">Create Page</a>
+          <a class="footer-links" href="#" target="_blank">Developers</a>
+          <a class="footer-links" href="#" target="_blank">Careers</a>
+          <a class="footer-links" href="#" target="_blank">Privacy</a>
+          <a class="footer-links" href="#" target="_blank">Cookies</a>
+          <a class="footer-links" href="#" target="_blank">Terms</a>
+          <a class="footer-links" href="#" target="_blank">Help</a>
+          <a class="footer-links" href="#" target="_blank">Settings</a>
+          <div>
+            <!-- &copy; to create copy right symbol -->
+            <span> Facebook &copy; 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  background-color: #fff;
+  color: #1c1e21;
+  height: 30px;
+  width: 62px;
+}
+
+#nav-bar {
+  background: #3b5998;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-bar-content-container {
+  display: flex;
+  width: 990px;
+  justify-content: space-between;
+}
+
+#fb-header {
+  color: white;
+  align-self: center;
+  font-size: 40px;
+  transition-duration: 1s;
+}
+
+#fb-header:hover {
+  transform: scale(4, 2.5) translateX(35px);
+  opacity: 0.7;
+}
+
+#login-form {
+  display: flex;
+  color: white;
+  align-self: center;
+  font-size: 14px;
+}
+
+#forget-password {
+  color: lightgray;
+  margin-bottom: -12px;
+  text-decoration: none;
+}
+
+#forget-password:hover {
+  text-decoration: underline;
+}
+
+#login-btn {
+  width: 50px;
+  height: 24px;
+  background: #476ab6;
+  border: 1px solid #2e4881;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+}
+
+#main-body-container {
+  background: #f8f5f4;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#main-body-content-holder {
+  display: flex;
+  width: 990px;
+  justify-content: space-between;
+}
+
+#left-side-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  padding-top: 30px;
+}
+
+#left-side-img {
+  width: 495px;
+  height: 390px;
+  padding: 7px 15px;
+}
+
+#right-side-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+#right-side-content-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#connect {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 16px;
+  word-spacing: -1px;
+  padding: 7px 15px;
+}
+
+#DOB-content-holder {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+#label-div {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #90949c;
+  font-size: 16px;
+}
+
+#gender-content-holder {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+#radio-button {
+  margin-left: 11px;
+}
+
+#radio-button label:hover {
+  color: #4f8836;
+  transition-duration: 0.4s;
+}
+
+#terms-of-agreement {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin: 11px 0;
+  word-spacing: 2px;
+}
+
+#terms-of-agreement a {
+  text-decoration: none;
+  color: #385898;
+}
+
+#terms-of-agreement a:hover {
+  text-decoration: underline;
+}
+
+#signup-btn {
+  width: 187px;
+  height: 40px;
+  padding: 7px 20px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #69a74e;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #446b2c;
+  cursor: pointer;
+  outline: none;
+}
+
+#for-a-celebrities {
+  width: 280px;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 2px solid #d4d3d3;
+}
+
+#for-a-celebrities span {
+  color: #666666;
+}
+
+#for-a-celebrities a {
+  text-decoration: none;
+  color: #385898;
+}
+
+#for-a-celebrities a:hover {
+  text-decoration: underline;
+}
+
+.gender + label {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.more-info {
+  margin-left: 7px;
+}
+
+.input-warper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 11px;
+}
+
+.login-inputs {
+  width: 150px;
+  height: 24px;
+  margin: 4px 0;
+  padding: 0 5px;
+}
+
+#top-sign-up {
+  display: flex;
+}
+
+#lower-sign-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-inputs {
+  height: 20px;
+  width: 172px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+/* There are different combinators in CSS:
+- Descendant selector (with a space eg. class-name1 .class-name2)
+- refers to an element with both classes:(class names separated with a dot/hash, without spaces eg. class-name1.class-name2)
+- Grouping selectors (separate them with a comma eg. p, .class-name)
+- Child selector (> eg. container > p) :target elements which are DIRECT children 
+  of a particular element.
+- Adjacent sibling selector (+) :It will only select the first element that is IMMEDIATELY PRECEDED by the former selector.
+- General sibling selector (~) : It's similar to adjacent sibling selector. 
+  the difference is that the second selector does NOT have to immediately follow the first one 
+  means It will select all elements that is preceded by the former selector.
+  */
+.sign-up-inputs.longer {
+  width: 378px;
+}
+
+#first-name {
+  margin-right: 11px;
+}
+
+#footer-container {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: color-change-4x 6s linear infinite alternate;
+}
+
+#upper-footer {
+  width: 78vw;
+  margin: 40px 0px 5px;
+  font-size: 16px;
+  color: rgb(194, 204, 212);
+  display: flex;
+  padding-right: 15px;
+}
+
+#add-more-lang {
+  background: rgb(194, 204, 212);
+  color: #464343;
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+}
+
+#lower-footer {
+  width: 80vw;
+  height: 100px;
+  border-top: 2px solid rgb(194, 204, 212);
+  padding: 0 15px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+input:hover {
+  animation-name: jello-vertical;
+  animation-duration: 0.9s;
+}
+
+#signup-btn:focus {
+  animation: bounce-top 0.9s;
+}
+
+.login-inputs:focus {
+  animation-name: blink-1;
+  animation-duration: 0.6s;
+}
+
+.sign-up-inputs:focus {
+  animation: vibrate-1 0.3s linear infinite;
+}
+
+@keyframes color-change-4x {
+  0% {
+    background: #19dcea;
+  }
+  33.3333% {
+    background: #b22cff;
+  }
+  66.666% {
+    background: #ea2222;
+  }
+  100% {
+    background: #f5be10;
+  }
+}
+
+@keyframes jello-vertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.9, 1.1, 1);
+    transform: scale3d(0.9, 1.15, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.1, 0.9, 1);
+    transform: scale3d(1.15, 0.9, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
